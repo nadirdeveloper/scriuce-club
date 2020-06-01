@@ -34,8 +34,8 @@
   border-radius: 40px;
   z-index: 1;
   position: relative;
-  height: 590px;
-  margin: 80px -180px;
+  height: 700px;
+  margin: 30px -180px;
   margin-bottom: 0;
 }
 .bg-red {
@@ -70,7 +70,7 @@
 }
 .card {
   width: 443px;
-  height: 174px;
+  height: 194px;
   margin: 20px;
   border-radius: 10px;
 }
@@ -99,19 +99,19 @@
 }
 .card-cont {
   margin: 15px;
-  height: 140px;
+  height: 160px;
   width: 400px;
 }
 .card-data {
   border: 1px solid red;
-  height: 150px;
+  height: 170px;
   position: absolute;
   top: 0;
   bottom: 0;
   right: 0;
   left: 0;
   margin: 10px;
-  margin-left: 110px;
+  margin-left: 120px;
 }
 .title-img{
     display: flex;
@@ -151,6 +151,7 @@ color: #282828;;
 
 }
 .card-detail p{
-    line-height: 12px;
-    font-size: 12px;
-}
+    line-height: 13px;
+    font-size: 13px;
+    text-align: justify;
+  }
