@@ -1,0 +1,156 @@
+.main-container {
+  height: 100vh;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.1),
+      rgba(0, 0, 0, 0.1)
+    ),
+    url("./images/image\ 1.png");
+  background-position: right;
+  background-clip: border-box;
+  background-repeat: no-repeat;
+  background-size: 50vh;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  background-color: black;
+}
+.side-orange {
+  background-color: rgb(254, 168, 44);
+  width: 170vh;
+  height: 100vh;
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.main-content {
+  background-color: #f2f2f2;
+  border-radius: 40px;
+  z-index: 1;
+  position: relative;
+  height: 590px;
+  margin: 80px -180px;
+  margin-bottom: 0;
+}
+.bg-red {
+  background-color: #f2f2f2;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+}
+.nav-link {
+  font-family: "Nunito", sans-serif;
+  color: black;
+  text-transform: uppercase !important;
+}
+.nav-link i {
+  color: rgb(254, 168, 44);
+}
+.nav-active {
+  color: rgb(254, 168, 44);
+}
+.nav-logo {
+  height: 40px;
+}
+.profile-pic {
+  height: 36px;
+}
+.all-posts h4 {
+  font-family: "Nunito", sans-serif;
+  font-weight: bold;
+}
+.all-posts {
+  margin: 20px;
+  border: 1px solid black;
+}
+.card {
+  width: 443px;
+  height: 174px;
+  margin: 20px;
+  border-radius: 10px;
+}
+.card-tag {
+  height: 100%;
+  width: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fedcd2;
+  border-radius: 10px;
+}
+.card-tag h6 {
+  transform: rotate(-90deg);
+  margin: 0;
+  display: inline-block;
+  position: absolute;
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 16px;
+  line-height: 18px;
+  /* margin-top: 55px; */
+}
+.card:hover{
+    border: 2px solid rgb(254, 168, 44);
+}
+.card-cont {
+  margin: 15px;
+  height: 140px;
+  width: 400px;
+}
+.card-data {
+  border: 1px solid red;
+  height: 150px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: 10px;
+  margin-left: 110px;
+}
+.title-img{
+    display: flex;
+    flex-direction: row;
+}
+.card-title,.card-img{
+ border: 1px solid black; 
+ width: 50%;
+ height: 40px;  
+}
+.card-img img{
+    float: right;
+}
+.card-title h6{
+    font-style: normal;
+font-weight: bold;
+font-size: 16px;
+}
+.card h6 span{
+    font-size: 12px;
+    font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+color: #282828;;
+}
+.card-react{
+    display: flex;
+    flex-direction: row;
+}
+.card-react .card-icon{
+    padding: 0px 15px;
+    border: 1px solid black;
+}
+.card-react .card-icon i{
+    color: rgb(254, 168, 44);
+
+}
+.card-detail p{
+    line-height: 12px;
+    font-size: 12px;
+}
