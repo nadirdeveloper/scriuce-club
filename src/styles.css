@@ -1,5 +1,5 @@
 .main-container {
-  height: 100vh;
+ height: 100vh;
   background-image: linear-gradient(
       to bottom,
       rgba(0, 0, 0, 0.1),
@@ -30,11 +30,12 @@
   right: 0;
 }
 .main-content {
+  
   background-color: #f2f2f2;
   border-radius: 40px;
   z-index: 1;
   position: relative;
-  height: 700px;
+  min-height: 700px;
   margin: 30px -180px;
   margin-bottom: 0;
 }
@@ -66,7 +67,6 @@
 }
 .all-posts {
   margin: 20px;
-  border: 1px solid black;
 }
 .card {
   width: 443px;
@@ -82,6 +82,7 @@
   justify-content: center;
   background-color: #fedcd2;
   border-radius: 10px;
+  text-transform: uppercase;
 }
 .card-tag h6 {
   transform: rotate(-90deg);
@@ -103,7 +104,6 @@
   width: 400px;
 }
 .card-data {
-  border: 1px solid red;
   height: 170px;
   position: absolute;
   top: 0;
@@ -118,7 +118,6 @@
     flex-direction: row;
 }
 .card-title,.card-img{
- border: 1px solid black; 
  width: 50%;
  height: 40px;  
 }
@@ -136,15 +135,15 @@ font-size: 16px;
 font-weight: normal;
 font-size: 14px;
 line-height: 17px;
-color: #282828;;
+color: #88888888;;
 }
 .card-react{
     display: flex;
     flex-direction: row;
-}
+    margin-top: 10px;
+  }
 .card-react .card-icon{
     padding: 0px 15px;
-    border: 1px solid black;
 }
 .card-react .card-icon i{
     color: rgb(254, 168, 44);
@@ -154,4 +153,68 @@ color: #282828;;
     line-height: 13px;
     font-size: 13px;
     text-align: justify;
+    color: #999999;
+  }
+  .card-percentage{
+    margin-top: -10px;
+    line-height: 15px;
+  }
+  .card-percentage p{
+    margin: 0;
+    font-size: 14px;
+  }
+  .progress{
+    height: 8px;
+    width: 80%;
+    margin: 0;
+  }
+  .progress-cont{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .progress-cont span{
+    margin-left: 10px;
+    width: 20%;
+    text-align: center;
+    color: rgb(254, 168, 44);
+    font-size: 16px;  
+  }
+  .progress-bar{
+    background-color: rgb(254, 168, 44);
+    border: none;
+  }
+  .card-detail span{
+    color: rgb(254, 168, 44);
+  }
+  @media screen and (max-width:600px){
+    .main-content{
+      margin: 0;
+      overflow: hidden;
+    }
+    .side-orange{
+      width: 100%;
+    }
+    body{
+      background-color: rgb(254, 168, 44);
+    }
+  }
+   @media screen and (max-width:1200px){
+   .all-posts h4{
+    text-align: center;
+   }
+    .main-content{
+      margin: 0;
+      overflow: hidden;
+    }
+    .row{
+      justify-content: center;
+      align-items: center;
+    }
+    .side-orange{
+      width: 100%;
+    }
+    body{
+      background-color: rgb(254, 168, 44);
+    }
   }
